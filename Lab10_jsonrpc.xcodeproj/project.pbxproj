@@ -14,6 +14,9 @@
 		AA910B381AD36D3400A224F9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA910B371AD36D3400A224F9 /* Images.xcassets */; };
 		AA910B3B1AD36D3400A224F9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA910B391AD36D3400A224F9 /* LaunchScreen.xib */; };
 		AA910B471AD36D3400A224F9 /* Lab10_jsonrpcTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA910B461AD36D3400A224F9 /* Lab10_jsonrpcTests.m */; };
+		AA910B521AD36DD100A224F9 /* WaypointTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA910B511AD36DD100A224F9 /* WaypointTableViewController.m */; };
+		AA910B551AD3713200A224F9 /* ServerProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = AA910B541AD3713200A224F9 /* ServerProxy.m */; };
+		AA910B5C1AD373FD00A224F9 /* Server_URL.plist in Resources */ = {isa = PBXBuildFile; fileRef = AA910B5B1AD373FD00A224F9 /* Server_URL.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,11 @@
 		AA910B401AD36D3400A224F9 /* Lab10_jsonrpcTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Lab10_jsonrpcTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA910B451AD36D3400A224F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AA910B461AD36D3400A224F9 /* Lab10_jsonrpcTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Lab10_jsonrpcTests.m; sourceTree = "<group>"; };
+		AA910B501AD36DD100A224F9 /* WaypointTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaypointTableViewController.h; sourceTree = "<group>"; };
+		AA910B511AD36DD100A224F9 /* WaypointTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaypointTableViewController.m; sourceTree = "<group>"; };
+		AA910B531AD3713200A224F9 /* ServerProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServerProxy.h; sourceTree = "<group>"; };
+		AA910B541AD3713200A224F9 /* ServerProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServerProxy.m; sourceTree = "<group>"; };
+		AA910B5B1AD373FD00A224F9 /* Server_URL.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Server_URL.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +97,11 @@
 				AA910B371AD36D3400A224F9 /* Images.xcassets */,
 				AA910B391AD36D3400A224F9 /* LaunchScreen.xib */,
 				AA910B2A1AD36D3400A224F9 /* Supporting Files */,
+				AA910B501AD36DD100A224F9 /* WaypointTableViewController.h */,
+				AA910B511AD36DD100A224F9 /* WaypointTableViewController.m */,
+				AA910B531AD3713200A224F9 /* ServerProxy.h */,
+				AA910B541AD3713200A224F9 /* ServerProxy.m */,
+				AA910B5B1AD373FD00A224F9 /* Server_URL.plist */,
 			);
 			path = Lab10_jsonrpc;
 			sourceTree = "<group>";
@@ -202,6 +215,7 @@
 				AA910B361AD36D3400A224F9 /* Main.storyboard in Resources */,
 				AA910B3B1AD36D3400A224F9 /* LaunchScreen.xib in Resources */,
 				AA910B381AD36D3400A224F9 /* Images.xcassets in Resources */,
+				AA910B5C1AD373FD00A224F9 /* Server_URL.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,8 +233,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA910B551AD3713200A224F9 /* ServerProxy.m in Sources */,
 				AA910B331AD36D3400A224F9 /* ViewController.m in Sources */,
 				AA910B301AD36D3400A224F9 /* AppDelegate.m in Sources */,
+				AA910B521AD36DD100A224F9 /* WaypointTableViewController.m in Sources */,
 				AA910B2D1AD36D3400A224F9 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
